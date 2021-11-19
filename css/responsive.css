@@ -1,0 +1,249 @@
+@media(max-width:991px) {
+
+    .custom-menubar ul {
+        top: 20%;
+    }
+
+    .custom-menubar ul li {
+        margin: 8px 0;
+    }
+
+    .custom-menubar .nav-link-block li {
+        display: block;
+    }
+
+    .menu-close a i {
+        font-size: 21px;
+        width: 40px;
+        height: 40px;
+        right: 10px;
+        top: 20px;
+        line-height: 40px;
+    }
+
+    .responsive-nav {
+        display: block;
+        top: 93% !important;
+    }
+
+    .responsive-nav li {
+        margin: 0 10px;
+    }
+}
+
+@media(max-width:575px) {
+
+    .follow-us,
+    #banner .vid-btn i {
+        display: none;
+    }
+
+    .custom-menubar ul {
+        top: 20%;
+    }
+
+    .custom-menubar ul li {
+        margin: 8px 0;
+    }
+
+    .custom-menubar .nav-link-block li {
+        display: block;
+    }
+
+    .menu-close a i {
+        font-size: 21px;
+        width: 40px;
+        height: 40px;
+        right: 10px;
+        top: 20px;
+        line-height: 40px;
+    }
+
+    .responsive-nav {
+        display: block;
+        top: 93% !important;
+    }
+
+    .responsive-nav li {
+        margin: 0 10px;
+    }
+
+    #banner {
+        padding: 120px 0 260px;
+        text-align: center;
+    }
+
+    .banner-txt h3 {
+        font-size: 65px;
+        margin-top: 0;
+    }
+
+    .banner-txt p {
+        padding: 30px 0 30px 0;
+    }
+
+    .banner-img img {
+        top: 355px;
+        right: 0;
+    }
+
+    .banner-img::after {
+        top: 460px;
+        left: 50%;
+        width: 260px;
+        height: 260px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        display: none;
+    }
+}
+
+@media(min-width:375px) and (max-width:575px) {
+    #banner {
+        padding: 130px 0 360px;
+    }
+
+    .banner-img img {
+        top: 335px;
+        right: 0;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .custom-menubar .menu-link {
+        font-size: 32px;
+    }
+
+    .follow-us,
+    .vid-btn i {
+        display: none;
+    }
+
+    .landscape-m-auto {
+        margin: 0 auto;
+    }
+
+    .banner-img img {
+        top: 410px;
+        right: 0;
+    }
+
+    #banner {
+        padding: 140px 0 345px;
+    }
+
+    .banner-txt p {
+        padding: 30px 20px 40px 20px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .banner-img::after {
+        top: 535px;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        top: 510px;
+        left: 35px;
+    }
+
+    .banner-txt p {
+        padding: 30px 20px 40px 20px;
+    }
+
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .vid-btn i,
+    .follow-us {
+        display: none;
+    }
+
+    .tab-m-auto {
+        margin: 0 auto;
+    }
+
+    #banner {
+        padding: 130px 0 350px;
+    }
+
+    .banner-txt p {
+        padding: 30px 90px 40px 90px;
+    }
+
+    .banner-img img {
+        top: 415px;
+        right: 0;
+    }
+
+    .banner-img::after {
+        top: 560px;
+        left: 50%;
+        width: 350px;
+        height: 350px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        top: 530px;
+        left: 25px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .custom-menubar .menu-link {
+        font-size: 42px;
+    }
+
+    .custom-menubar ul li {
+        margin: 0 25px;
+    }
+
+    #banner {
+        padding: 200px 0 80px;
+    }
+
+    .banner-txt h3 {
+        font-size: 87px;
+    }
+
+    .banner-img::after {
+        left: 85px;
+    }
+
+    .banner-img::before {
+        top: -30px;
+        left: 85px;
+    }
+
+    .follow-us {
+        position: absolute;
+        left: -95px;
+        z-index: 11;
+    }
+
+    .vid-btn i {
+        bottom: 35px;
+    }
+}
